@@ -2,16 +2,75 @@
 o branco e preto para melhor visualização, o roxo para 
 dar detalhes em pop-ups e etc.
 Usar fotos,imagens selecoes.*/
-header {
-    width: 100%;
-    height: 200px;
-    background:rgb(182, 85, 238);
-}
-
-body {
+*{ 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+} 
+html,body {
+    
     background: #000000;
-    font: optional;
     color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;}
+header {
+    
+    height: 100px;
+    background:rgb(108, 19, 160);
+}
+h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 70px;
+    font-family: 'Lucida Handwriting', cursive;
+     
+}
+
+
+h2 {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 70px;
+    font-family: 'Lucida Handwriting', cursive; 
+}
+h3 {
+    text-align: left;
+    padding-top: 10px;
+    font-size: 70px;
+    font-family: 'Lucida Handwriting', cursive; 
+}
+p{
+    text-align: left;
+    padding-top: 10px;
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif }
+nav{
+    
+    width: 100%;
+    height: 75px;
+    background:rgb(0, 0, 0);
+}
+section{
+    text-align: center;
+    padding-top: 10px;
+    height: 150px;
+    font-size: 70px;
+    font-family: 'Lucida Handwriting', cursive;
+    background:rgb(108, 19, 160); 
+    
+}
+img.tech-image {
+    border-radius: 20%;
+    width: 25%;
+    height: 250px;
+    margin: 10px;  
+    position: center;
+    top: 0px;
+    left: 500px;
+    
+}
+img{
+    border-radius: 50%;
+    margin-left: 0px;
+    margin-top: 0px;
+    align-items: right;
 }
