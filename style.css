@@ -1,0 +1,17 @@
+/* Quero meu site em roxo branco e preto, ajustando 
+o branco e preto para melhor visualização, o roxo para 
+dar detalhes em pop-ups e etc.
+Usar fotos,imagens selecoes.*/
+header {
+    width: 100%;
+    height: 200px;
+    background:rgb(182, 85, 238);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    font: optional;
+    color: aliceblue;
+}
