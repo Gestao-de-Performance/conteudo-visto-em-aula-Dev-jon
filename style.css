@@ -1,27 +1,25 @@
-  :root{
-}
 *{
-
+    margin: 0;
+    padding: 0;
 }
- 
-header{
 
+header{
     margin-top: 2.5vw;
 }
 
 .marginSite{
-
-    margin:0 10vw;
-    
+    margin: 0 10vw;
 }
-.flex
-{
+
+.flex{
     display: flex;
     align-items: center;
 }
-/*header*/
-.conteinerMenuPrincipal{
+
+/*Header*/
+.containerMenuPrincipal{
     margin-left: 5vw;
     justify-content: space-between;
     width: 100%;
 }
+/*Fim Header*/
